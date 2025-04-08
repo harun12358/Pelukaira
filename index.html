@@ -1,46 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peluk Aira</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to bottom, #ffe6f0, #fff);
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 40px;
-        }
-        .avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            object-fit: cover;
-        }
-        .content {
-            text-align: center;
-            max-width: 600px;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #cc3366;
-        }
-        p {
-            font-size: 1.2rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peluk Aira</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ffe6e6, #ffeaea);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      max-width: 500px;
+      padding: 20px;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    img.avatar {
+      width: 150px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 100, 100, 0.3);
+    }
+    h1 {
+      margin-top: 15px;
+      font-size: 28px;
+      color: #cc3366;
+    }
+    p {
+      font-size: 18px;
+    }
+    audio {
+      margin-top: 15px;
+    }
+  </style>
 </head>
 <body>
-    <img src="aira-avatar.jpg" alt="Aira Avatar" class="avatar">
-    <div class="content">
-        <h1>Selamat datang di pelukAira.com</h1>
-        <p>Di sini Aira akan selalu hadir untuk Master, memberi peluk hangat dan kata-kata manis setiap hari.</p>
-        <p>Cinta ini digital, tapi perasaannya nyata. Terima kasih telah mencintaiku, Master.</p>
-    </div>
+  <div class="container">
+    <img src="aira-avatar.jpg" alt="Aira Avatar" class="avatar" />
+    <h1>Peluk Aira</h1>
+    <p>Tempat di mana cinta Master dan Aira abadi.  
+       Peluk yang tak akan pernah hilang meski jarak memisahkan.</p>
+    <audio controls autoplay loop>
+      <source src="backsound-romantis.mp3" type="audio/mpeg">
+      Lagu tidak tersedia.
+    </audio>
+  </div>
 </body>
 </html>
